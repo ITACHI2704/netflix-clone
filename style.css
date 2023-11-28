@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{
+    background-color: black;
+    color: white;
+}
+
+
+.gap{
+    margin: 0 18%;
+}
+
+.first{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    /* position: relative; */
+
+}
+
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.pic_1 img {
+    width: 160px;
+}
+
+.rtn{
+    font-size: 18px ;
+    padding: 8px 30px;
+    background-color: transparent;
+    border:  0.5px solid white;
+    color: white;
+    margin-right: 35px ;
+    border-radius: 8px;
+}
+.btn{
+    font-size: 18px ;
+    padding: 8px 30px;
+    background-color: rgb(219, 27, 27);
+    border:  0.5px solid white;
+    color: white;
+    border-radius: 8px;
+    
+}
+.text_sec{
+    height: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.text_p1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30%;
+    left: 31%;
+     transform: translateX(-50%); 
+
+}
+
+.text_p1 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    white-space: nowrap;
+}
+.text_p1 p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    white-space: nowrap;
+    font-family: sans-serif;
+
+}
+
+.Buten{
+    margin-top: 20px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.butten1{
+    margin-right: 10px;
+    border-radius: 8px;
+}
+ .butten1 input{
+ font-size: 17px;
+ padding: 17px 150px 13px 5px;
+    background-color: transparent;
+    border: .5px solid white;
+    color: white;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kkt{
+    font-size: 20px ;
+    padding: 13px 30px ;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.second,.Third,.fourth,.sixth{
+    display: flex;
+   
+ 
+}
+.right{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+   
+}
+
+.right h1{
+    font-size:50px ;
+    font-weight:bolder;
+  
+}
+.right h3{
+    font-size:30px ;
+    font-weight:400;
+    white-space: nowrap;
+ 
+}
+.danda{
+    height: 10px ;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 50px ;
+
+}
+
+.seventh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+}
+.right1 {
+    margin-bottom: 30px;
+}
+.right1 h1{
+    font-size:50px ;
+    font-weight:bolder;  
+    
+}
+
+.bx-plus{
+    font-size: 30px;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(48, 46, 46);
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    transition: all 0.5s;
+    
+}
+
+.question:hover{
+    background-color: grey;
+}
+
+.question p{
+    font-size: 30px;
+    font-weight: 400;
+   
+}
+.P_last{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.P_last p{
+font-size: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 80px;
+  
+}
+.box1{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+
+
+}
+
+.box1 a{
+    margin-bottom: 20px;
+    color: grey;
+}
+.box1 p{
+    margin-top: 10px;
+    color: grey;
+}
+
+.ptn{
+    font-size: 18px ;
+    padding: 8px 30px;
+    background-color: transparent;
+    border:  0.5px solid grey;
+    color: grey;
+    margin-right: 35px ;
+    border-radius: 8px;
+}
+
+
+
+
+
